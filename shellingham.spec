@@ -4,7 +4,7 @@
 #
 Name     : shellingham
 Version  : 1.4.0
-Release  : 1
+Release  : 2
 URL      : https://files.pythonhosted.org/packages/9c/c9/a3e3bc667c8372a74aa4b16649c3466364cd84f7aacb73453c51b0c2c8a7/shellingham-1.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/9c/c9/a3e3bc667c8372a74aa4b16649c3466364cd84f7aacb73453c51b0c2c8a7/shellingham-1.4.0.tar.gz
 Summary  : Tool to Detect Surrounding Shell
