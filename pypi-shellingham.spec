@@ -4,7 +4,7 @@
 #
 Name     : pypi-shellingham
 Version  : 1.5.0.post1
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/1f/13/fab0a3f512478bc387b66c51557ee715ede8e9811c77ce952f9b9a4d8ac1/shellingham-1.5.0.post1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/1f/13/fab0a3f512478bc387b66c51557ee715ede8e9811c77ce952f9b9a4d8ac1/shellingham-1.5.0.post1.tar.gz
 Summary  : Tool to Detect Surrounding Shell
