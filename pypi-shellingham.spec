@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-shellingham
-Version  : 1.5.2
-Release  : 15
-URL      : https://files.pythonhosted.org/packages/b3/1e/908cd7174ad75b736ab9e201203ee87cbe732a38811abadb95fd7176ee32/shellingham-1.5.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/b3/1e/908cd7174ad75b736ab9e201203ee87cbe732a38811abadb95fd7176ee32/shellingham-1.5.2.tar.gz
+Version  : 1.5.3
+Release  : 16
+URL      : https://files.pythonhosted.org/packages/74/31/6d2297b76389dd1b542962063675eb19bb9225421f278d9241da0c672739/shellingham-1.5.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/74/31/6d2297b76389dd1b542962063675eb19bb9225421f278d9241da0c672739/shellingham-1.5.3.tar.gz
 Summary  : Tool to Detect Surrounding Shell
 Group    : Development/Tools
 License  : ISC
@@ -54,10 +54,10 @@ python3 components for the pypi-shellingham package.
 
 
 %prep
-%setup -q -n shellingham-1.5.2
-cd %{_builddir}/shellingham-1.5.2
+%setup -q -n shellingham-1.5.3
+cd %{_builddir}/shellingham-1.5.3
 pushd ..
-cp -a shellingham-1.5.2 buildavx2
+cp -a shellingham-1.5.3 buildavx2
 popd
 
 %build
@@ -65,7 +65,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692200384
+export SOURCE_DATE_EPOCH=1692284656
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
